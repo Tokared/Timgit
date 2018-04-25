@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>自由行，旅游攻略小手册  --行走</title>
+    <link rel="icon" href="img/icon_favicon.ico" type="image/x-icon"/>
+    <link rel="Stylesheet" type="text/css" href="css/index.css" />
+    <meta name="keywords" content="自由行，旅游攻略小手册  --行走">
+    <script src="js/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="header-wall">
+            <div class="head-logo">
+                <a class="lg" title="行走" href="index.html"></a>
+            </div>
+            <ul class="head-nav">
+                <li class="head-nav-index">
+                    当遗忘变成另一种开始，我踏出了旅途的第一步！
+                </li>
+            </ul>
+            <div class="login-out">
+                <a  class="weibo-login" href="#"></a>
+                <a  class="qq-login" href="#"></a>
+                <a  class="weixin-login" href="#"></a>
+                <a  id="showlogin" class="lr" href="login.html">登录</a>
+                <span class="split">|</span>
+                <a class="lr" href="login.html">注册</a>
+            </div>
+        </div>
+        <div class="shadow"></div>
+    </div>
+    <div class="search">
+        <!-- 轮播 -->
+        <div id="turnshow" class="flexslider">
+            <ul class="slides">
+                <li>
+                    <a title="" target="_blank" href="#">
+                        <img width="1920" height="482" alt="" style="background: url(img/1.jpeg) no-repeat center;">
+                    </a>
+                </li>
+                <li>
+                    <a title="" href="#">
+                        <img width="1920" height="482" alt="" style="background: url(img/2.jpeg) no-repeat center;">
+                    </a>
+                </li>
+                <li>
+                    <a title="" href="#">
+                        <img width="1920" height="482" alt="" style="background: url(img/3.jpeg) no-repeat center;">
+                    </a>
+                </li>
+            </ul>
+            <ul class="flex-direction-nav">
+                <li><a class="flex-prev" href="javascript:;">Previous</a></li>
+                <li><a class="flex-next" href="javascript:;">Next</a></li>
+            </ul>
+            <ol id="bannerCtrl" class="flex-control-nav flex-control-paging">
+                <li><a>1</a></li>
+                <li><a>2</a></li>
+                <li><a>2</a></li>
+            </ol>
+        </div>
+        <div class="search_tab">
+            <div class="search_group">
+                <div class="searchbar">
+                    <div class="search_map">
+                        <div class="search_input">
+                            <input type="text" placeholder="搜索目的地" autocomplete="off">
+                        </div>
+                    </div>
+                    <div class="search_button">
+                        <a href="javascript:">
+                            <i class="search_icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="view-content">
+        <div class="content_left">
+            <div class="aclock">
+                <h5><img src="img/lingdang.png" style="height:20px">【公告】</h5>
+                <div class="left_hd">
+                    <div class="notice_active">
+                        <ul>
+                            <li class="notice_active_ch">
+                                <span>早上5点网站维护公告</span>
+                                <em>2017-04-01</em>
+                            </li>
+                            <li class="notice_active_ch">
+                                <span>部分景点停止售票公告</span>
+                                <em>2017-04-15</em>
+                            </li>
+                            <li class="notice_active_ch">
+                                <span>对严重违规的景点封停</span>
+                                <em>2017-04-20</em>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div style="margin-bottom: 30px">
+                <script type="text/javascript" src="js/clock.js"></script>
+            </div>
+            <div class="aright hot_spot">
+                <div class="left_hd">
+                    <h2 class="left_title">景区优惠</h2>
+                </div>
+                <div class="left_bd">
+                    <ul class="left_content">
+                        <li><p>[优惠信息]</p><a>3月8日当天女免门票（黄陂本地居民凭身份证可免票入场）</a><br><span>地址:</span><a>武汉市黄陂木兰天池风景区</a></li>
+                        <li><p>[优惠信息]</p><a>3月8日当天游玩梭布垭石林景区，女士门票免费（每人一张，不含景交），随行人员门票半价（不含景交）</a><br><span>地址:</span><a>湖北省恩施州恩施市梭布垭石林景区</a></li>
+                        <li><p>[优惠信息]</p><a>3月8日出生的女王们，节日当天可免门票，薄刀峰尽情游。</a><br><span>地址:</span>：<a>湖北省罗田县薄刀峰景区</a></li>
+                    </ul>
+                </div>
+                <button id="spotbutr">></button>
+                <button id="spotbutl"><</button>
+            </div>
+            <div class="aright comment">
+                <div class="left_hd">
+                    <h2 class="left_title">游客留言</h2>
+                </div>
+                <div class="comment_bd">
+                    <ul class="left_content comment_slide">
+                        <li class="comment_active_ch">
+                            <div class="div_left">
+                                <a href="#"><img src="img/head.jpg"></a>
+                            </div>
+                            <div class="div_right">
+                                <a href="#">拓卡</a>：人生至少要有两次冲动，一场奋不顾身的爱情和一段走就走的旅行
+                                <div class="twit_item_time">--重庆仙女山</div>
+                            </div>
+                        </li>
+                        <li class="comment_active_ch">
+                            <div class="div_left">
+                                <a href="#"><img src="img/touxiang.jpg"></a>
+                            </div>
+                            <div class="div_right">
+                                <a href="#">咖喱酱</a>：你曾经说，最大的愿望，就是去旅行。牵着彼此的手，感受最美的风景。你曾经说，最快乐的时候，就是去旅行。背起简单的行攘，沐浴自由的风。你曾经说，等我们老的时候，开上一部车，装着我们的故事，一直开到梦的尽头。你曾经说，你曾经说，你曾经说。走在爱的旅途，我们的脚步多么轻松……
+                                <div class="twit_item_time">--武隆</div>
+                            </div>
+                        </li>
+                        <li class="comment_active_ch">
+                            <div class="div_left">
+                                <a href="#"><img src="img/touxiang.jpg"></a>
+                            </div>
+                            <div class="div_right">
+                                <a href="#">喵喵</a>：学会沉默，至少平静。有时候，被人误解，不想争辩，所以选择沉默。本来就不是所有人都得了解你，因此不必对全世界喊话。生命中往往有连舒伯特都无言以对的时刻，毕竟不是所有的是非都能条列清楚，甚至可能根本没有真正的是与非。那么，不想说话，就不说吧，在多说无益的时候，也许沉默就是最好的解释。
+                                <div class="twit_item_time">--四川青城山</div>
+                            </div>
+                        </li>
+                        <li class="comment_active_ch">
+                            <div class="div_left">
+                                <a href="#"><img src="img/touxiang.jpg"></a>
+                            </div>
+                            <div class="div_right">
+                                <a href="#">小饼干</a>：我们的距离，只有一颗心的距离，你中有我，我中有你。牵着你的手，赋予我爱情的魔力，对你说着我爱你，一心一意，彼此相惜。不再逃避，给予我爱你的勇气，在我的心缘里，有的是爱你的甜蜜，满满的是你，为你，我已经倾尽了全力，温柔的你，让我一生，为你着迷，我不能骗自己，我是真的爱上你。
+                                <div class="twit_item_time">--武隆</div>
+                            </div>
+                        </li>
+                        <li class="comment_active_ch">
+                            <div class="div_left">
+                                <a href="#"><img src="img/touxiang.jpg"></a>
+                            </div>
+                            <div class="div_right">
+                                <a href="#">乖乖</a>：无论你在何时，无论你在何处，无论你做什么；请记住：我永远支持你，无时无刻不着你，因为你是我最爱的人！我终于发现，这世界上有丰厚的爱，我不能辜负。于是我想对你说，我爱你，请你倾听……与你相识是一种缘，与你相恋是一种美，与你相伴是一种福，我愿和你相伴到永远。
+                                <div class="twit_item_time">--武隆</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content_right">
+            <div class="right_hd">
+                <h2 class="spot_title">旅游景点</h2>
+            </div>
+            <div class="right_bd">
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/1.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/2.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/3.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/4.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/5.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/12.jpg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/44.jpg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/5.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/4.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/3.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/2.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/5.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/1.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/5.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/5.jpeg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/12.jpg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+                <div class="spot_line">
+                    <a>
+                        <div class="image">
+                            <img src="img/44.jpg" height="135" width="220">
+                        </div>
+                        <h3 style="margin-top: 5px;"> 【美国维多利亚游轮美维系列】重庆出发长江三峡4天3晚游轮之旅（五星邮轮零购物产品）</h3>
+                    </a>
+                </div>
+
+            </div>
+            <div id="page"></div>
+        </div>
+    </div>
+    <div id="footer">
+        <div class="ft-content">
+            <div class="describe"><P>关于旅行，关于生活，如此而已。  --行走</P></div>
+        </div>
+    </div>
+    <div id="tool">
+        <div id="tool-bgm">
+            <a id="bgm" class="on">
+                <audio id="musicfx" loop="loop" autoplay="autoplay">
+                    <source src="img/bg.mp3" type="audio/mpeg">
+                </audio>
+            </a>
+        </div>
+        <div id="tool-backtop">
+            <a class="btn_tbt"><i class="icon_top"></i></a>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/page.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $("#page").Page({
+                totalPages: 9,//分页总数
+                liNums: 7,//分页的数字按钮数(建议取奇数)
+                activeClass: 'activP', //active 类样式定义
+                callBack : function(page){
+                    console.log(page)
+                }
+            });
+        })
+    </script>
+</body>
+</html>
