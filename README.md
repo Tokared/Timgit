@@ -1,2 +1,2 @@
-# Timgit
-* [Page link](https://tokared.github.io/Timgit/)<br>
+## Timgit
+* [Click here to portal](https://tokared.github.io/Timgit/)<br>
