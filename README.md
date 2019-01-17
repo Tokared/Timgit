@@ -1,2 +1,2 @@
 # Timgit
-* [Page](https://tokared.github.io/Timgit/)<br>
+* [Page link](https://tokared.github.io/Timgit/)<br>
